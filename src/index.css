@@ -1,0 +1,410 @@
+@charset "UTF-8";
+
+/* Header */
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.Header {
+  height: 300px;
+  background-color: #fff;
+  
+}
+
+ header > h1 {
+  margin-top: -80px;
+  margin-left: 100px ;
+  font-size: 3em;
+  color: #0277bd;
+}
+
+nav {
+  padding: 10px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363) ;
+}
+
+nav a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav  a:hover {
+  color: #fff;
+  border-radius: 5px;
+  transition-duration: .3s;
+  background-color: #0277bd;
+}
+nav .button {
+  margin-left: 10px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #0277bd;
+}
+nav .button:hover {
+  color: #fff;
+  border-radius: 5px;
+}
+header {
+  display: block;
+  width: 100%;
+  
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+
+header.shadow {
+  background-color: #fff;
+  box-shadow: black;
+  transition: 0.2s;
+}
+nav p {
+  width: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px;
+} 
+/* Header responsive */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  nav a {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  nav .button {
+    padding: 10px;
+    
+  }
+}
+@media screen and (min-width: 1200px)  {
+  nav a {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  nav .button {
+    padding: 10px;
+    height: 10px;
+  }
+}
+
+/* ============Home=================== */
+.developed {
+  border-radius: 10px;
+  margin-top: -110px;
+  background-image: linear-gradient(to left, rgba(238, 154, 204, 1),  rgba(94, 102, 255, 1));
+}
+.itens {
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 20px;
+  color: #fff;
+} 
+
+.itens h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.itens img {
+  margin-top: -90px;
+  height: 450px;
+  width: 450px;
+}
+
+.itens .buttons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.itens .button1 {
+  height: 50px;
+  width: 120px;
+  color: #fff;
+  border-radius: 5px;
+  border: white;
+  background: #EA73DD;
+} 
+.itens .button1:hover {
+  cursor: pointer;
+}
+.itens .button2:hover {
+  cursor: pointer;
+}
+.button2 {
+  margin-left: 70px;
+  width: 120px;
+  border-radius: 3px;
+  border: 1px solid;
+  background-color: transparent;
+  color: #fff;
+  height: 50px;
+}
+
+/* Header Responsive */
+@media only screen and (max-width: 768px) {
+  .itens p > br {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  
+
+  .itens h1 {
+    font-size: 3em;
+  }
+  .itens p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .developed {
+    height: 600px;
+    border-radius: 30px 30px 360px 30px;
+  }
+
+  .itens h1 {
+    font-size: 4em;
+  }
+  .itens p {
+    font-size: 20px;
+  }
+  .itens img {
+    margin-top: -300px;
+    width: 450px;
+    height: 450px;
+    margin-left: 60%;
+  }
+
+}
+
+/*===============Oters=================*/
+.oters {
+  margin-left: 40px;
+  color: #010855;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.oters h1 {
+  font-size: 50px;
+  color: #010855;
+}
+
+.oters p{
+  color: #010877;
+}
+.oters .elements {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.oters .Study {
+  width: 210px;
+  padding-left: 30px;
+  padding-top: 30px;
+  height: 250px;
+  border-radius: 30px;
+
+  box-shadow: 0px 4px 4px 0px rgba(238, 154, 204, 0.08);
+}
+
+.oters .Study > img {
+  width: 100px;
+  height: 120px;
+  margin-left: 30px;
+}
+
+.oters .Checked {
+  width: 210px;
+  padding-left: 30px;
+  padding-top: 30px;
+  height: 250px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(238, 154, 204, 0.08);
+}
+.oters .Checked > img {
+  width: 100px;
+  height: 120px;
+  margin-left: 30px;
+}
+
+.oters .Modern {
+  width: 210px;
+  padding-left: 30px;
+  padding-top: 30px;
+  height: 250px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px  rgba(238, 154, 204, 0.08);
+}
+.oters .Modern > img {
+  width: 100px;
+  height: 120px;
+  margin-left: 35px;
+}
+.Modern, .Study, .Checked {
+  margin: 30px;
+}
+.oters h3 {
+  font-size: 18px;
+}
+/*OTERS Responsive*/
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .oters .elements {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .oters .elements {
+    margin-top: -300px;
+    display: flex;
+    margin-left: 400px;
+    flex-wrap: wrap;
+  }
+
+  .Checked {
+    margin-top: 30px;
+  }
+}
+/*====================Product===================*/
+.product {
+  margin-top: 50px;
+  background-color: rgba(238, 154, 204, 0.08);
+  color: #010877;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product span {
+  color: #EA73DD;
+}
+
+.many h1 {
+  margin-left: 50px;
+  font-size: 40px;
+}
+
+.many p {
+  margin-left: 50px;
+}
+
+.many img {
+  height: 450px;
+  width: 500px;
+}
+.product  .button {
+  border-color: #fff;
+  margin-top: 20px;
+  margin-left: 50px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: #EA73DD;
+
+}
+.product  .button:hover {
+  transition: .3s;
+  color: black;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.time {
+  margin-top: 110px;
+}
+.time img {
+  height: 450px;
+  width: 500px;
+}
+
+
+.time h1 {
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.time p {
+  margin-left: 50px;
+}
+
+/*PRODUCT RESPONSIVE */
+@media only screen and (max-width: 768px) {
+
+  .many h1 br {
+    display: none;
+  }
+
+  .time h1 > br {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* Many */
+  .many h1 {
+    font-size: 30px;
+    margin-top: -350px;
+    margin-left: 50%;
+  }
+
+  .many p {
+    margin-left: 50%;
+  }
+  .many p > br {
+    display: none;
+  }
+  .many  .button {
+    margin-left: 50%;
+  }
+  
+
+  /* Time*/
+  .time img {
+    width: 400px;
+    height: 350;
+    margin-left: 50%;
+  }
+
+  .time h1 {
+    font-size: 30px;
+    margin-top: -350px;
+  }
+  
+}
+
+@media screen and (min-width: 1200px) {
+  .many h1 {
+    margin-top: -350px;
+    margin-left: 50%;
+  }
+  .many p {
+    margin-left: 50%;
+  }
+  .many .button {
+    margin-left: 50%;
+  }
+
+  /* Time*/
+  .time img {
+    width: 400px;
+    height: 350;
+    margin-left: 50%;
+  }
+
+  .time h1 {
+    margin-top: -350px;
+  }
+}
