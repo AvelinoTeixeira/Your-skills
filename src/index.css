@@ -229,11 +229,14 @@ img {
   margin-left: 50px;
 }
 
-
+.many img {
+  height: 400px;
+  width: 500px;
+}
 .product  .button {
   border-color: #fff;
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-left: 50px;
   color: #fff;
   border-radius: 10px;
@@ -254,7 +257,10 @@ img {
   margin-top: 110px;
 }
 
-
+.time img {
+  height: 400px;
+  width: 500px;
+}
 
 
 .time h1 {
@@ -278,8 +284,7 @@ img {
   }
   .time img {
     margin-left: 10%;
-    width: 300px;
-    margin-left: -5px;
+    width: 400px;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1100px) {
@@ -288,7 +293,8 @@ img {
     margin-top: -350px;
   }
   .time img {
-    wi
+    height: 400px;
+    width: 500px;
     margin-bottom: 400px;
 
   }
