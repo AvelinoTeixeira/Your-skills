@@ -1,0 +1,50 @@
+
+
+function Plans() {
+  return (
+    <div className='plans'>
+      <section>
+      <div className='elements'>
+        <h1>Here are all our plans</h1>
+        <p>On the other hand, we dwnounce with righteous indignation and dislike men who are so
+                                            beguiled demoralized</p>
+          <div className='start'>
+          <h1>Start</h1>
+          <p>On the other hand, we dwnounce <br /> with righteous indignation and dislike</p>
+          <h3><strong>50$</strong> /month</h3>
+          <a href="#">Videos of lessons</a>
+            <a href="#">Homework check</a>
+            <a href="#">Additional practical tasks</a>
+            <a href="#">Monthly conferences</a>
+            <a href="#">Personal advice from teachers</a>
+            <button className='button'>Get Started</button>
+          </div>
+          <div className='advanced'>
+            <h1>Advanced</h1>
+            <p>On the other hand, we dwnounce <br /> with righteous indignation and dislike</p>
+          <h3><strong>75$</strong> /month</h3>
+            <a href="#"> Videos of lessons</a>
+            <a href="#">Homework check</a>
+            <a href="#">Additional practical tasks</a>
+            <a href="#">Monthly conferences</a>
+            <a href="#">Personal advice from teachers</a>
+            <button className='button'>Get Started</button>
+          </div>
+          <div className='premium'>
+            <h1>Premium</h1>
+            <p>On the other hand, we dwnounce <br /> with righteous indignation and dislike</p>
+            <h3><strong>100$</strong> /month</h3>
+            <a href="#">Videos of lessons</a>
+            <a href="#">Homework check</a>
+            <a href="#">Additional practical tasks</a>
+            <a href="#">Monthly conferences</a>
+            <a href="#">Personal advice from teachers</a>
+            <button className='button'>Get Started</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
+
+export default Plans
