@@ -17,12 +17,15 @@ ul {
 
 .Header {
   overflow-y: hidden;
-  width: 100%;
-  height: 300px;
+  height: 150px;
   background-color: #fff;
+  margin-bottom: 150px;
+  box-shadow: 0px 7px 7px rgba(94, 100, 255,.500)
   
 }
-
+.Header header {
+  height: 250px;
+}
 
  header > h1 {
   margin-top: -80px;
@@ -32,8 +35,9 @@ ul {
 }
 
 nav {
-  padding: 10px;
-  box-shadow: 0px 7px 7px rgba(94, 100, 255,.500) ;
+  margin-top: 0px;
+  padding: 0px;
+   margin-left: 100px;
 }
 
 nav a {
@@ -48,15 +52,20 @@ nav  a:hover {
   transition-duration: .3s;
   background-color: #5E66FF;
 }
-nav .button {
-  margin-left: 10px;
+.Header .buttonup {
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;
   color: #fff;
   border-radius: 5px;
   background-color: #5E66FF;
 }
-nav .button:hover {
+.Header .buttonup:hover {
   color: #fff;
   border-radius: 5px;
+}
+.Header img, .buttonup  {
+  margin: ;
 }
 header {
   display: block;
@@ -83,22 +92,20 @@ nav p {
 } 
 /* Header responsive */
 @media screen and (max-width: 830px) {
-  .nav .button {
-    margin-left: 20px;
-  }
-  header > h1 {
-    font-size: 0px;
+  .nav a{
+    font-size: 14px;
   }
 }
-@media screen and (min-width: 667px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   nav a {
     font-size: 20px;
     padding: 10px;
   }
 
-  nav .button {
+   .Header.buttonup {
+    margin-left: 50px;
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }
 @media screen and (min-width: 1200px)  {
@@ -107,7 +114,7 @@ nav p {
     padding: 10px;
   }
 
-  nav .button {
+  .Header .buttonup {
     padding: 10px;
     height: 10px;
   }
@@ -115,7 +122,8 @@ nav p {
 }
 
 /* ============Home=================== */
-.developed {margin-left: ;
+.developed {
+  width: 100%;
   overflow-y: hidden;
   border-radius: 10px;
   margin-top: -110px;
