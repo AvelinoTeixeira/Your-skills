@@ -10,123 +10,16 @@ img {
   height: 100px;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-.Header {
-  overflow-y: hidden;
-  height: 150px;
-  background-color: #fff;
-  margin-bottom: 150px;
-  box-shadow: 0px 7px 7px rgba(94, 100, 255,.500)
-  
-}
-.Header header {
-  height: 250px;
-}
-
- header > h1 {
-  margin-top: -80px;
-  margin-left: 100px ;
-  font-size: 40px;
-  color: #5E66FF;
-}
-
-nav {
-  margin-top: 0px;
-  padding: 0px;
-   margin-left: 100px;
-}
-
-nav a {
-  color: black;
-  padding: 10px;
-  text-decoration: none;
-  font-weight: bold;
-}
-nav  a:hover {
-  color: #fff;
-  border-radius: 5px;
-  transition-duration: .3s;
-  background-color: #5E66FF;
-}
-.Header .buttonup {
-  text-decoration: none;
-  padding: 10px;
-  margin-top: 20px;
-  color: #fff;
-  border-radius: 5px;
-  background-color: #5E66FF;
-}
-.Header .buttonup:hover {
-  color: #fff;
-  border-radius: 5px;
-}
-.Header img, .buttonup  {
-  margin: ;
-}
-header {
-  display: block;
-  width: 100%;
-  
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
 
 
-header.shadow {
-  background-color: #fff;
-  box-shadow: black;
-  transition: 0.2s;
-}
-nav p {
-  width: 50%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bolder;
-  font-size: 15px;
-  display: inline-block;
-  padding: 10px;
-} 
-/* Header responsive */
-@media screen and (max-width: 830px) {
-  .nav a{
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  nav a {
-    font-size: 20px;
-    padding: 10px;
-  }
 
-   .Header.buttonup {
-    margin-left: 50px;
-    padding: 10px;
-    margin-top: 50px;
-  }
-}
-@media screen and (min-width: 1200px)  {
-  nav a {
-    font-size: 20px;
-    padding: 10px;
-  }
-
-  .Header .buttonup {
-    padding: 10px;
-    height: 10px;
-  }
-  
-}
 
 /* ============Home=================== */
 .developed {
   width: 100%;
   overflow-y: hidden;
   border-radius: 10px;
-  margin-top: -110px;
+  margin-top: 110px;
   background-image: linear-gradient(to left, rgba(238, 154, 204, 1),  rgba(94, 102, 255, 1));
 }
 .itens {

@@ -1,4 +1,4 @@
-import logo from '../assets/logo.png'
+
 
 function Home() {
   
@@ -11,15 +11,14 @@ function Home() {
     <body>
       <div className='Header'>
         <header >
-          <img src={logo} alt="" />
-          <h1>Developer</h1>
+          <h1>Skills</h1>
           <a href='#' className='buttonup'>Sign Up</a>
           <nav className='nav'>
               <a href='#'>Overview</a>
               <a href='#'>Features</a>
               <a href='#'>About</a>
               <a href='#'>Pricing</a>
-              
+              <i className='bx bx-menu' id="menu-icon"></i>
           </nav>
           
         </header>
