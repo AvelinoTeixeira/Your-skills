@@ -157,6 +157,11 @@ nav p {
   .itens p > br {
     display: none;
   }
+  .itens img {
+    width: 300px;
+    margin-left: 15%;
+    height: 300px;
+  } 
 }
 
 @media screen and (min-width: 600px) and (max-width: 1200px) {
@@ -328,6 +333,7 @@ nav p {
 }
 
 .time img {
+  margin-left: -10%;
   height: 400px;
   width: 500px;
 }
