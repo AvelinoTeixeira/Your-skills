@@ -21,7 +21,7 @@ ul {
  header > h1 {
   margin-top: -80px;
   margin-left: 100px ;
-  font-size: 3em;
+  font-size: 40px;
   color: #5E66FF;
 }
 
@@ -76,7 +76,12 @@ nav p {
   padding: 10px;
 } 
 /* Header responsive */
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 667px) {
+  header h1 {
+    font-size: 90px;
+  }
+}
+@media screen and (min-width: 667px) and (max-width: 1200px) {
   nav a {
     font-size: 20px;
     padding: 10px;
@@ -153,7 +158,7 @@ nav p {
 }
 
 /* Header Responsive */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 667px) {
   .itens p > br {
     display: none;
   }
@@ -164,7 +169,7 @@ nav p {
   } 
 }
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 667px) and (max-width: 1200px) {
   
 
   .itens h1 {
@@ -349,7 +354,7 @@ nav p {
 }
 
 /*PRODUCT RESPONSIVE */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 667px) {
 
   .many h1 br {
     display: none;
@@ -362,7 +367,7 @@ nav p {
     width: 400px;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 667px) and (max-width: 1200px) {
   /* Many */
   .many h1 {
     font-size: 30px;
