@@ -82,9 +82,12 @@ nav p {
   padding: 10px;
 } 
 /* Header responsive */
-@media screen and (min-width: 667px) {
+@media screen and (max-width: 830px) {
   .nav .button {
     margin-left: 20px;
+  }
+  header > h1 {
+    font-size: 0px;
   }
 }
 @media screen and (min-width: 667px) and (max-width: 1200px) {
