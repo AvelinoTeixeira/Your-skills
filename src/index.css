@@ -229,10 +229,7 @@ img {
   margin-left: 50px;
 }
 
-.many img {
-  height: 400px;
-  width: 500px;
-}
+
 .product  .button {
   border-color: #fff;
   margin-top: 30px;
@@ -257,10 +254,7 @@ img {
   margin-top: 110px;
 }
 
-.time img {
-  height: 400px;
-  width: 500px;
-}
+
 
 
 .time h1 {
@@ -294,8 +288,7 @@ img {
     margin-top: -350px;
   }
   .time img {
-    height: 400px;
-    width: 500px;
+    wi
     margin-bottom: 400px;
 
   }
