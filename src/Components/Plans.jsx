@@ -34,12 +34,21 @@ function Plans() {
               <h1>Advanced</h1>
               <p>On the other hand, we dwnounce <br /> with righteous indignation and dislike</p>
             <h3><strong>75$</strong> /month</h3>
-              <a href="#"> Videos of lessons</a>
-              <a href="#">Homework check</a>
-              <a href="#">Additional practical tasks</a>
-              <a href="#">Monthly conferences</a>
-              <a href="#">Personal advice from teachers</a>
-              <button className='button'>Get Started</button>
+            <div className="circles">
+               <div className="circle">&#10003;</div>
+               <div className="circle">&#10003;</div>
+               <div className="red-icon">&#10007;</div>
+               <div className="red-icon">&#10007;</div>
+               <div className="red-icon">&#10007;</div>
+             </div>
+              <div className="">
+                <a href="#"> Videos of lessons</a>
+                <a href="#">Homework check</a>
+                <a href="#">Additional practical tasks</a>
+                <a href="#">Monthly conferences</a>
+                <a href="#">Personal advice from teachers</a>
+                <button className='button'>Get Started</button>
+              </div>
             </div>
             <div className='premium'>
               <h1>Premium</h1>
