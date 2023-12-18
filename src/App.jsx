@@ -4,6 +4,7 @@ import Oters from './Components/Oters'
 import Product from './Components/Product'
 import Plans from './Components/Plans'
 import Discount from './Components/Discount'
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
        <Product/>
        <Plans/>
        <Discount/>
+       <Footer/>
      </body>
     </>
   )
