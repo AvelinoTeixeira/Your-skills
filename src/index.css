@@ -566,7 +566,7 @@ nav > a:hover {
 }
 
 .each {
-  margin-left: 50px;
+  margin-left: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
 }
@@ -597,7 +597,7 @@ nav > a:hover {
   .each img {
     width: 300px;
     height: 250px;
-    margin-left: -5%;
+    margin-left: -10%;
   }
   .each p {
     font-size: 13px;
