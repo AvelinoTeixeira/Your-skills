@@ -423,8 +423,38 @@ nav > a:hover {
   font-weight: 100;
   font-size: 12px;
 }
+.circles {
+  margin-left: -30px;
+}
+.item {
+  margin-top: -155px;
+}
+.circle {
+  margin-bottom: 20px;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #4CAF50; /* cor do círculo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* cor do símbolo de check */
+  font-size: 24px;
+  }
 
-
+.red-icon {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #FD809E; /* cor do círculo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* cor do símbolo de check */
+  font-size: 24px;
+}
 .plans .button {
   width: 120px;
   border-color: #fff;
