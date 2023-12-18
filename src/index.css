@@ -17,7 +17,7 @@ img {
 }
 
 header {
-  padding-left: 20px;
+  padding-left: 15px;
   background-color: #fff;
   display: block;
   width: 100%;
@@ -35,17 +35,18 @@ header h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #5E66FF;
 }
+    
 
-header .buttonup {
+
+nav > a{
+ margin-bottom: 30px;
+  height:20px;
   color: #fff;
-  text-decoration: none;
   background-color: #5E66FF;
+  border-radius: 5px;
   padding: 10px;
-  border-radius: 15px;
-}
-
-nav a{
   text-decoration: none;
+  transition: .5s;
 }
 #menu-icon {
   font-size: 24px;
@@ -56,14 +57,10 @@ nav a{
   display: flex;
   column-gap: 2rem;
 }
-.nav a {
-  padding-bottom: 30px;
 
-  font-size: 1rem;
-  font-weight: 500;
- 
-  -webkit-background-clip: text;
-  background-clip: text;
+nav > a:hover {
+  color: #fff;
+  cursor: pointer;
 }
 
 

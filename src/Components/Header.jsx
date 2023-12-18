@@ -17,7 +17,6 @@ function Home() {
       <div className='Header'>
         <header >
           <h1>Skills</h1>
-          <a href='#' className='buttonup'>Sign Up</a>
           <nav className='nav'>
               <a href='#'>Overview</a>
               <a href='#'>Features</a>
