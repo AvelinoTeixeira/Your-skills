@@ -21,7 +21,6 @@ function Home() {
               <a href='#'>Overview</a>
               <a href='#'>Features</a>
               <a href='#'>About</a>
-              <a href='#'>Pricing</a>
               <i className='bx bx-menu' id="menu-icon"></i>
           </nav>
           
