@@ -430,7 +430,6 @@ nav > a:hover {
   margin-top: -155px;
 }
 .circle {
-  margin-bottom: 20px;
   margin: 10px;
   width: 20px;
   height: 20px;
@@ -473,6 +472,9 @@ nav > a:hover {
 .elements p {
   text-align: center;
   margin-left: -15%;
+}
+.elements a {
+  margin: -1px;
 }
 .elements .buttonsem {
   width: 120px;
@@ -549,4 +551,75 @@ nav > a:hover {
   font-size: 15px;
   padding: 7px;
   color: #010855;
+}
+
+/*============= Discount ================*/
+.discount {
+
+  margin-bottom: 30px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-radius: 10px;
+  margin-top: 150px;
+  background-image: linear-gradient(to left, rgba(238, 154, 204, 1),  rgba(94, 102, 255, 1));
+}
+
+.each {
+  margin-left: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+.each h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.each img {
+  width: 550px;
+  height: 500px;
+}
+.have {
+  padding-top: -300px;
+}
+.code {
+  margin-left: 30px;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #EA73DD;
+  padding: 15px;
+  margin-bottom: 40px;
+  background-color: #EA73DD;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .each img {
+    width: 300px;
+    height: 250px;
+    margin-left: -5%;
+  }
+  .each p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .have {
+    margin-top: -80px;
+  }
+  
+  .each img {
+    margin-top: -170px;
+    margin-left: 60%;
+    width: 350px;
+    height: 300px;
+  }
+  
+}
+@media screen and (min-width: 667px) and (max-width: 1200px) {
+  .each img {
+    width: 400px;
+    height: 350px;
+  }
 }

@@ -3,6 +3,7 @@ import Header from './Components/Header'
 import Oters from './Components/Oters'
 import Product from './Components/Product'
 import Plans from './Components/Plans'
+import Discount from './Components/Discount'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
        <Oters/>
        <Product/>
        <Plans/>
+       <Discount/>
      </body>
     </>
   )
