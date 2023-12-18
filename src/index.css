@@ -55,7 +55,7 @@ nav > a{
   display: none;
 }
 .nav {
-  
+  margin-bottom: 30px;
   margin: 10px;
   display: flex;
   column-gap: 2rem;
@@ -273,9 +273,7 @@ nav > a:hover {
 .product span {
   color: #EA73DD;
 }
-.many {
-  width: 50%;
-}
+
 .many h1 {
   margin-left: 50px;
   font-size: 40px;
@@ -288,10 +286,6 @@ nav > a:hover {
 .many img {
   height: 400px;
   width: 500px;
-}
-
-.product .images img {
-  width: 100;
 }
 .product  .button {
   border-color: #fff;
@@ -343,7 +337,9 @@ nav > a:hover {
   .many h1 br {
     display: none;
   }
-
+  .many img {
+    width: 350px;
+  }
   .time h1 > br {
     display: none;
   }
