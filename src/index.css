@@ -273,7 +273,9 @@ nav > a:hover {
 .product span {
   color: #EA73DD;
 }
-
+.images {
+  width: 50%;
+}
 .many h1 {
   margin-left: 50px;
   font-size: 40px;
@@ -286,6 +288,10 @@ nav > a:hover {
 .many img {
   height: 400px;
   width: 500px;
+}
+
+.product img {
+  width: 100%;
 }
 .product  .button {
   border-color: #fff;
