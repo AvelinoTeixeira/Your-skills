@@ -41,7 +41,8 @@ function Plans() {
                <div className="red-icon">&#10007;</div>
                <div className="red-icon">&#10007;</div>
              </div>
-              <div className="">
+
+              <div className="item">
                 <a href="#"> Videos of lessons</a>
                 <a href="#">Homework check</a>
                 <a href="#">Additional practical tasks</a>
