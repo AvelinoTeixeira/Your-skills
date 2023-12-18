@@ -469,6 +469,11 @@ nav > a:hover {
 .plans .button:hover {
   cursor: pointer;
 }
+
+.elements p {
+  text-align: center;
+  margin-left: -15%;
+}
 .elements .buttonsem {
   width: 120px;
   border-color: #F0F0F0 ;
