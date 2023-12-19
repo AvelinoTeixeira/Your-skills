@@ -1,5 +1,15 @@
 import Saly1 from '../assets/Saly1.png'
+import ScrollReveal from 'scrollreveal';
 
+const sr = ScrollReveal({
+  origin:'top',
+  distance: '60px',
+  duration: 2500,
+  delay:400,
+  // reset: true
+})
+
+sr.reveal('.itens.buds-img',{origin: 'right'})
 function Home () {
   return (
     <div className="developed">
