@@ -46,7 +46,7 @@ nav a{
   background-color: #5E66FF;
   border-radius: 5px;
   padding: 10px;
-  
+  margin-left: -20px;
   text-decoration: none;
   transition: .5s;
 }
@@ -134,7 +134,7 @@ nav > a:hover {
     height: 300px;
   } 
 .itens .buttons {
-  margin-left: 5px;
+  margin-left: 8px;
 }
   .itens .button2 {
     margin-left: 30px;
