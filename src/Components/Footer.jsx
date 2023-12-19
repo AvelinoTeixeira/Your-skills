@@ -38,7 +38,7 @@ function Footer () {
             
           </div>
           <hr />
-          <h5>Developer 2015-2022.All rights reserved</h5>
+          <h5>Developer 2022-2023.All rights reserved</h5>
           
 
       </div>
