@@ -9,7 +9,7 @@ const sr = ScrollReveal({
   // reset: true
 })
 
-sr.reveal('.itens.buds-img',{origin: 'right'})
+sr.reveal('.itens,.buds-img',{origin: 'right'})
 function Home () {
   return (
     <div className="developed">
