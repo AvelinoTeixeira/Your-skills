@@ -687,6 +687,7 @@ h3 {
   padding-bottom: 20px;
 }
 .buttons {
+  margin-left: -10px;
   margin-top: 30px;
 }
 .buttonY {
@@ -699,6 +700,7 @@ h3 {
   background-color: rgba(255, 255, 255, 0.1);
 }
 .buttonS {
+  
   color: #fff;
   padding: 10px;
   border-color: #EA73DD;
