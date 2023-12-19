@@ -667,6 +667,10 @@ footer h1 {
   color: #d9d9d9;
   font-size: 12px;
 }
+.footer h5 {
+  font-size: 10px;
+  padding-bottom: 20px;
+} 
 .footer a {
   color: #d9d9d9;
   padding: 5px;

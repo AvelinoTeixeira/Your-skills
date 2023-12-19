@@ -31,11 +31,12 @@ function Footer () {
             <a href="#">12025</a>
           </div>
           <div className='buttons'>
-            <button className="buttonY">Your email</button>
+          <input className='buttonY' type="text"  placeholder='Your email'/>
             <button className="buttonS">Subscribe</button>
+            
           </div>
           <hr />
-          <a>Developer 2015-2022.All rights reserved</a>
+          <h5>Developer 2015-2022.All rights reserved</h5>
 
       </div>
     </footer>
