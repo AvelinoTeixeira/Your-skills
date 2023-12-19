@@ -28,7 +28,7 @@ function Footer () {
               <a href="#">(716)532-3577</a>
               <a href="#">116 Archer Rd</a>
               <a href="#">Broadalbin</a>
-              <a href="#">New You(NY)</a>
+              <a href="#">New York(NY)</a>
               <a href="#">12025</a>
             </div>
           </div>
