@@ -30,12 +30,13 @@ function Footer () {
             <a href="#">New You(NY)</a>
             <a href="#">12025</a>
           </div>
-          <hr />
           <div className='buttons'>
             <button className="buttonY">Your email</button>
             <button className="buttonS">Subscribe</button>
           </div>
-        
+          <hr />
+          <a>Developer 2015-2022.All rights reserved</a>
+
       </div>
     </footer>
   )
