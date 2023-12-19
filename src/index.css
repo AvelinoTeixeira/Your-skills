@@ -663,4 +663,9 @@ footer {
   .footer h1 {
     font-size: 25px;
   }
+  .footer p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 40px;
+    font-size: 12px;
+  }
 }
