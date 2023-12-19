@@ -9,7 +9,7 @@ const sr = ScrollReveal({
   // reset: true
 })
 
-sr.reveal('.itens',{origin: 'right'})
+sr.reveal('.itens')
 function Home () {
   return (
     <div className="developed">
