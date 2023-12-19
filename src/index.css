@@ -603,6 +603,7 @@ nav > a:hover {
   border-color: #F0F0F0;
   transform: .5s;
 }
+/* Discount  responsive*/
 
 @media only screen and (max-width: 768px) {
 
@@ -709,4 +710,53 @@ h3 {
   border-color: #EA73DD;
   border-radius: 5px;
   background-color: #EA73DD;
+}
+
+.footer .indic {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.indic .Contacts {
+  margin-left: 80px;
+}
+.indic .Help {
+  margin-left: 80px;
+}
+
+/* Footer Reponsive */
+@media only screen and (max-width: 768px) {
+  .footer .indic {
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .indic .Contacts {
+    margin-left: 0px;
+  }
+  .indic .Help {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 1250px) {
+  .footer p {
+    font-size: 15px;
+  }
+  .footer h5 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .footer p {
+    font-size: 18px;
+  }
+  .footer a {
+    font-size: 18px;
+  }
+  .footer h5 {
+    font-size: 18px;
+  }
 }
