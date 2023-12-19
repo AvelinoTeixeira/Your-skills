@@ -39,14 +39,14 @@ header h1 {
     
 
 
-nav > a{
+nav a{
   font-size: 14px;
   height:20px;
   color: #fff;
   background-color: #5E66FF;
   border-radius: 5px;
   padding: 10px;
-  margin: -10px; 
+  
   text-decoration: none;
   transition: .5s;
 }
@@ -56,7 +56,6 @@ nav > a{
   display: none;
 }
 .nav {
-  margin-bottom: 30px;
   margin: 10px;
   display: flex;
   column-gap: 2rem;
